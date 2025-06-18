@@ -6,14 +6,14 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Seva', href: '#offerings' },
-    { name: 'Ashrams', href: '#progress' },
-    { name: 'Donate', href: '#donate' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Seva', href: '/offerings' },
+    { name: 'Ashrams', href: '/ashram-progress' },
+    { name: 'Donate', href: '/donate' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'Gallery', href: '/gallery' },
+    { name: 'Contact', href: '/contact' }
   ];
 
   return (

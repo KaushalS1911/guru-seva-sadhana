@@ -3,13 +3,13 @@ import React from 'react';
 
 const Footer = () => {
   const quickLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Seva Opportunities', href: '#offerings' },
-    { name: 'Ashram Progress', href: '#progress' },
-    { name: 'Donations', href: '#donate' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'About Us', href: '/about' },
+    { name: 'Seva Opportunities', href: '/offerings' },
+    { name: 'Ashram Progress', href: '/ashram-progress' },
+    { name: 'Donations', href: '/donate' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'Gallery', href: '/gallery' },
+    { name: 'Contact', href: '/contact' }
   ];
 
   const sevaCategories = [

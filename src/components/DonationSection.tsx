@@ -56,7 +56,7 @@ const DonationSection = () => {
                       setSelectedAmount(amount);
                       setCustomAmount('');
                     }}
-                    className={`p-3 rounded-lg border-2 transition-all duration-200 ${
+                    className={`text-black p-3 rounded-lg border-2 transition-all duration-200 ${
                       selectedAmount === amount && !customAmount
                         ? 'border-orange-600 bg-orange-50 text-orange-600'
                         : 'border-gray-200 hover:border-orange-300'
@@ -73,14 +73,14 @@ const DonationSection = () => {
                   placeholder="Enter custom amount"
                   value={customAmount}
                   onChange={(e) => setCustomAmount(e.target.value)}
-                  className="w-full p-3 border-2 border-gray-200 rounded-lg focus:border-orange-600 focus:outline-none"
+                  className="w-full text-black p-3 border-2 border-gray-200 rounded-lg focus:border-orange-600 focus:outline-none"
                 />
               </div>
             </div>
 
             <div className="mb-6">
               <h4 className="text-lg font-semibold text-gray-700 mb-3">Donation Purpose:</h4>
-              <select className="w-full p-3 border-2 border-gray-200 rounded-lg focus:border-orange-600 focus:outline-none">
+              <select className="w-full text-black p-3 border-2 border-gray-200 rounded-lg focus:border-orange-600 focus:outline-none">
                 <option>General Ashram Development</option>
                 <option>Mahudi Ashram Construction</option>
                 <option>Ajmer Ashram Development</option>

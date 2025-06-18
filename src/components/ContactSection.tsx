@@ -106,7 +106,7 @@ const ContactSection = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
+                    className="w-full text-black px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
                     placeholder="Enter your full name"
                   />
                 </div>
@@ -120,7 +120,7 @@ const ContactSection = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
+                    className="w-full text-black px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
                     placeholder="Enter your email"
                   />
                 </div>
@@ -135,7 +135,7 @@ const ContactSection = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 text-black py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -148,7 +148,7 @@ const ContactSection = () => {
                   name="purpose"
                   value={formData.purpose}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 text-black py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
                 >
                   <option value="general">General Inquiry</option>
                   <option value="seva">Seva Opportunities</option>
@@ -169,7 +169,7 @@ const ContactSection = () => {
                   onChange={handleInputChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all resize-none"
+                  className="w-full text-black px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all resize-none"
                   placeholder="Write your message here..."
                 ></textarea>
               </div>
@@ -195,21 +195,21 @@ const ContactSection = () => {
                 <div className="flex items-center space-x-3">
                   <div className="text-orange-600">📞</div>
                   <div>
-                    <div className="font-semibold">Main Office</div>
+                    <div className="text-black font-semibold">Main Office</div>
                     <div className="text-gray-600">+91 7383626702</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="text-orange-600">✉️</div>
                   <div>
-                    <div className="font-semibold">Email</div>
+                    <div className="text-black font-semibold">Email</div>
                     <div className="text-gray-600">admin@gurutattva.org</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="text-orange-600">💬</div>
                   <div>
-                    <div className="font-semibold">WhatsApp</div>
+                    <div className="text-black font-semibold">WhatsApp</div>
                     <div className="text-gray-600">+91 7383626702</div>
                   </div>
                 </div>
@@ -218,7 +218,7 @@ const ContactSection = () => {
 
             <div className="bg-white border-2 border-orange-200 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-4">Social Media</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4 text-black">
                 <a href="#" className="flex items-center space-x-2 p-3 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors">
                   <div className="text-orange-600">📱</div>
                   <span className="font-semibold">Telegram</span>
